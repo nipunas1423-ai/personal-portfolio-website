@@ -1,168 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nipuna S | Backend Java Developer</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nipuna S – Backend Java Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<header>
+  <div class="logo">NS.</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<div class="container">
-
-    <!-- LEFT PANEL -->
-    <div class="left-panel">
-
-        <div class="profile-section">
-            <img src="profile.png" alt="Nipuna">
-            <h2>Nipuna S</h2>
-            <p>Backend Java Developer</p>
-        </div>
-
-        <!-- SKILLS SECTION -->
-        <div class="section">
-            <h3>Skills</h3>
-
-            <h4 class="skill-category">Backend</h4>
-            <div class="skills">
-                <span class="badge">Java</span>
-                <span class="badge">Spring Boot</span>
-                <span class="badge">REST APIs</span>
-            </div>
-
-            <h4 class="skill-category">Database</h4>
-            <div class="skills">
-                <span class="badge">SQL</span>
-                <span class="badge">PostgreSQL</span>
-            </div>
-
-            <h4 class="skill-category">Frontend</h4>
-            <div class="skills">
-                <span class="badge">HTML</span>
-                <span class="badge">CSS</span>
-                <span class="badge">JavaScript</span>
-            </div>
-
-            <h4 class="skill-category">Tools</h4>
-            <div class="skills">
-                <span class="badge">Git</span>
-                <span class="badge">GitHub</span>
-                <span class="badge">Docker</span>
-            </div>
-        </div>
-
-        <!-- CONTACT SECTION -->
-        <div class="section">
-            <h3>Contact</h3>
-            <p>Email: nipunas1423@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/nipuna-s-45a73b3a8/" target="_blank">LinkedIn</a></p>
-            <p><a href="https://github.com/nipunas1423-ai" target="_blank">GitHub</a></p>
-        </div>
-
-    </div>
-
-    <!-- RIGHT PANEL -->
-    <div class="right-panel">
-
-        <h1>About Me</h1>
-        <p>
-            I am a Pre-Final Year Computer Science Engineering student (2027) 
-            passionate about Backend Development and building scalable web applications.
-            I specialize in Java and Spring Boot with strong knowledge of SQL and REST API design.
-        </p>
-
-        <p>
-            I enjoy solving real-world problems, writing clean and maintainable code,
-            and continuously improving my backend architecture and Data Structures skills.
-            I am actively seeking Backend Java Developer opportunities to contribute and grow.
-        </p>
-
-        <!-- PROJECTS -->
-        <div class="project-card">
-    <h2>Expense Tracker Application</h2>
-    <p>
-        Designed and developed a full-stack Expense Management System using 
-        Java, Spring Boot, and Supabase (PostgreSQL).
-    </p>
-    <ul>
-        <li>Implemented RESTful APIs with full CRUD functionality.</li>
-        <li>Integrated PostgreSQL database for secure data storage.</li>
-        <li>Built responsive frontend using HTML, CSS, and JavaScript.</li>
-        <li>Developed category-based expense tracking system.</li>
-        <li>Focused on scalable and clean backend architecture.</li>
-    </ul>
-    <a href="https://github.com/nipunas1423-ai/expensetracker" target="_blank" class="project-btn">View Code</a>
+<div class="hero" id="home">
+  <div class="hero-avatar">
+  <img src="profile.png" alt="Nipuna S" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"/>
+</div>
+  <div class="hero-role"><span class="hero-role-dot"></span> Open to Opportunities</div>
+  <h1>Hi, I'm <span>Nipuna S</span></h1>
+  <p class="hero-desc">Backend Java Developer building scalable REST APIs and full-stack applications with Spring Boot, PostgreSQL, and AI integrations.</p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn-fill">View My Work</a>
+    <a href="https://drive.google.com/file/d/1eWdnaAZwn07kt5IuFL4NYZvbXfchv5VA/view?usp=sharing" class="btn-ghost" target="_blank">↓ Download CV</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-stat-num">8.35</div><div class="hero-stat-lbl">CGPA</div></div>
+    <div class="hero-stat"><div class="hero-stat-num">2</div><div class="hero-stat-lbl">Internships</div></div>
+    <div class="hero-stat"><div class="hero-stat-num">3+</div><div class="hero-stat-lbl">Projects</div></div>
+    <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-lbl">Certifications</div></div>
+  </div>
 </div>
 
-        <div class="project-card">
-            <h2>Personal Portfolio Website (Mini Project)</h2>
-            <p>
-                Developed a responsive and interactive personal portfolio website to showcase
-                projects, skills, and professional experience effectively.
-            </p>
-            <ul>
-                <li>Implemented smooth navigation and dynamic project sections.</li>
-                <li>Created a contact form with email integration.</li>
-                <li>Optimized for responsiveness across devices and screen sizes.</li>
-                <li>Designed clean UI/UX for professional presentation.</li>
-            </ul>
-            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript.</p>
-            <a href="https://github.com/nipunas1423-ai/personal-portfolio-website" target="_blank" class="project-btn">View Code</a>
-        </div>
-
-        <!-- INTERNSHIPS -->
-        <h2>Internships</h2>
-        <div class="grid-container">
-            <div class="square-card">
-                <h3>DLK Software Solutions</h3>
-                <p><strong>Duration:</strong> 1 Month</p>
-                <p>
-                    Completed internship focused on Java programming,
-                    strengthening core concepts and practical development.
-                </p>
-            </div>
-            <div class="square-card">
-                <h3>Ayan IT Service and Solutions</h3>
-                <p><strong>Duration:</strong> 13 Days</p>
-                <p>
-                    Participated in a Data Science Bootcamp,
-                    gaining exposure to real-world datasets and analysis workflows.
-                </p>
-            </div>
-        </div>
-
-        <!-- CERTIFICATIONS -->
-        <h2>Certifications</h2>
-        <div class="grid-container certifications">
-
-            <div class="square-card cert-card">
-                <h3>Web Development – Simplilearn</h3>
-                <p>HTML, CSS & responsive design fundamentals.</p>
-                <a href="certificates/web-development.pdf" target="_blank" class="cert-btn">View Certificate</a>
-            </div>
-
-            <div class="square-card cert-card">
-                <h3>OCI Generative AI – Oracle</h3>
-                <p>Oracle Cloud Infrastructure & GenAI deployment knowledge.</p>
-                <a href="certificates/oci-genai.pdf" target="_blank" class="cert-btn">View Certificate</a>
-            </div>
-
-            <div class="square-card cert-card">
-                <h3>Introduction to AI – Simplilearn</h3>
-                <p>Machine learning basics & neural networks.</p>
-                <a href="certificates/intro-ai.pdf" target="_blank" class="cert-btn">View Certificate</a>
-            </div>
-
-            <div class="square-card cert-card">
-                <h3>Generative AI Studio – Google Cloud</h3>
-                <p>Practical GenAI concepts using Google Cloud tools.</p>
-                <a href="certificates/genai-studio.pdf" target="_blank" class="cert-btn">View Certificate</a>
-            </div>
-
-        </div>
-
-    </div>
+<div class="section-wrap dark" id="about">
+  <div class="section-title">About <span>Me</span></div>
+  <div class="section-sub">A little bit about who I am</div>
+</div>
+<div class="cards dark">
+  <div class="feature-card">
+    <div class="card-icon">👨‍💻</div>
+    <div class="card-title">Who I Am</div>
+    <div class="card-desc">I'm a pre-final year CSE student at Panimalar Engineering College, Chennai, with a CGPA of 8.35/10. I got into Java backend development because I love understanding how things work behind the scenes — APIs, databases, data flowing the right way.<br><br>I've built 3 projects including an AI-powered code review tool using Google Gemini API, and completed 2 internships. Actively looking for a backend Java developer role where I can keep growing.</div>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">📋</div>
+    <div class="card-title">Quick Info</div>
+    <table class="info-table">
+      <tr><td>Degree</td><td>B.E. Computer Science & Engineering</td></tr>
+      <tr><td>College</td><td>Panimalar Engineering College</td></tr>
+      <tr><td>Graduation</td><td>2027</td></tr>
+      <tr><td>CGPA</td><td>8.35 / 10</td></tr>
+      <tr><td>Email</td><td>nipunas1423@gmail.com</td></tr>
+      <tr><td>Phone</td><td>+91 8608982477</td></tr>
+      <tr><td>GitHub</td><td>github.com/nipunas1423-ai</td></tr>
+      <tr><td>Status</td><td style="color:#4ade80;">● Available</td></tr>
+    </table>
+  </div>
 </div>
 
+<div class="section-wrap" id="skills">
+  <div class="section-title">Technical <span>Skills</span></div>
+  <div class="section-sub">Technologies and tools I work with</div>
+</div>
+<div class="cards four">
+  <div class="feature-card">
+    <div class="card-icon">☕</div><div class="card-tag">Backend</div>
+    <div class="card-title">Java Development</div>
+    <div class="stack-row"><span class="stack-pill">Java</span><span class="stack-pill">Spring Boot</span><span class="stack-pill">REST API</span><span class="stack-pill">CRUD</span><span class="stack-pill">OOP</span></div>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">🗄️</div><div class="card-tag">Database</div>
+    <div class="card-title">Data Storage</div>
+    <div class="stack-row"><span class="stack-pill">MySQL</span><span class="stack-pill">PostgreSQL</span><span class="stack-pill">SQL</span><span class="stack-pill">Supabase</span></div>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">🤖</div><div class="card-tag">AI / Cloud</div>
+    <div class="card-title">AI Integration</div>
+    <div class="stack-row"><span class="stack-pill">Google Gemini API</span><span class="stack-pill">Oracle OCI</span><span class="stack-pill">Gen AI</span></div>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">🌐</div><div class="card-tag">Frontend</div>
+    <div class="card-title">Web Technologies</div>
+    <div class="stack-row"><span class="stack-pill">HTML</span><span class="stack-pill">CSS</span><span class="stack-pill">JavaScript</span></div>
+  </div>
+</div>
+<div class="skills-row">
+  <span class="skill-pill hi">Java</span><span class="skill-pill hi">Spring Boot</span><span class="skill-pill hi">REST API</span><span class="skill-pill hi">MySQL</span><span class="skill-pill hi">PostgreSQL</span>
+  <span class="skill-pill">SQL</span><span class="skill-pill">Supabase</span><span class="skill-pill">Google Gemini API</span><span class="skill-pill">Oracle OCI</span>
+  <span class="skill-pill">HTML</span><span class="skill-pill">CSS</span><span class="skill-pill">JavaScript</span><span class="skill-pill">Python</span>
+  <span class="skill-pill">Git</span><span class="skill-pill">GitHub</span><span class="skill-pill">Docker</span><span class="skill-pill">VS Code</span><span class="skill-pill">Eclipse</span>
+</div>
+
+<div class="section-wrap dark" id="projects">
+  <div class="section-title">My <span>Projects</span></div>
+  <div class="section-sub">Things I've built from scratch</div>
+</div>
+<div class="cards three dark">
+  <div class="feature-card">
+    <div class="card-icon">🤖</div><div class="card-tag">Featured · AI-Powered</div>
+    <div class="card-title">AI Code Review System</div>
+    <div class="card-desc">Intelligent code review tool using Google Gemini AI to analyze code for bugs, anti-patterns, and improvements — giving structured feedback to help developers write cleaner code faster.</div>
+    <div class="stack-row"><span class="stack-pill">Java</span><span class="stack-pill">Spring Boot</span><span class="stack-pill">Gemini API</span><span class="stack-pill">REST API</span><span class="stack-pill">HTML/CSS/JS</span></div>
+    <button onclick="window.open('https://github.com/nipunas1423-ai/ai-code-review-.project','_blank')">View on GitHub →</button>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">💸</div><div class="card-tag">Full-Stack Application</div>
+    <div class="card-title">Expense Tracker</div>
+    <div class="card-desc">Full-stack expense management system with category-based filtering, built with Spring Boot REST APIs (full CRUD) and PostgreSQL via Supabase for cloud storage.</div>
+    <div class="stack-row"><span class="stack-pill">Java</span><span class="stack-pill">Spring Boot</span><span class="stack-pill">PostgreSQL</span><span class="stack-pill">REST API</span><span class="stack-pill">HTML/CSS/JS</span></div>
+    <button onclick="window.open('https://github.com/nipunas1423-ai/expensetracker','_blank')">View on GitHub →</button>
+  </div>
+  <div class="feature-card">
+    <div class="card-icon">🌐</div><div class="card-tag">Mini Project</div>
+    <div class="card-title">Personal Portfolio Website</div>
+    <div class="card-desc">Responsive portfolio with scroll-triggered animations, dynamic project sections, and a contact form with email integration. Yeah — this very site!</div>
+    <div class="stack-row"><span class="stack-pill">HTML</span><span class="stack-pill">CSS</span><span class="stack-pill">JavaScript</span></div>
+    <button onclick="window.open('https://github.com/nipunas1423-ai/personal-portfolio-website','_blank')">View on GitHub →</button>
+  </div>
+</div>
+
+<div class="section-wrap" id="experience">
+  <div class="section-title">Work <span>Experience</span></div>
+  <div class="section-sub">Internships and hands-on training</div>
+</div>
+<div class="timeline">
+  <div class="tl-item">
+    <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+    <div class="tl-body">
+      <div class="tl-tag">Java Development · 1 Month · 2024</div>
+      <div class="tl-title">Java Developer Intern</div>
+      <div class="tl-org">DLK Software Solutions, Chennai</div>
+      <div class="tl-desc">Wrote and debugged core Java programs covering OOP, exception handling, and collections. Worked on real project tasks that reinforced backend fundamentals and practical development workflows.</div>
+    </div>
+  </div>
+  <div class="tl-item">
+    <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+    <div class="tl-body">
+      <div class="tl-tag">Data Science · 13 Days · 2024</div>
+      <div class="tl-title">Data Science Trainee</div>
+      <div class="tl-org">Ayan IT Service and Solutions</div>
+      <div class="tl-desc">Completed an intensive data science bootcamp. Analyzed real-world datasets and gained exposure to end-to-end project workflows, data cleaning, and structured problem-solving.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-wrap dark" id="certifications">
+  <div class="section-title">My <span>Certifications</span></div>
+  <div class="section-sub">Courses and credentials I've earned</div>
+</div>
+<div class="cards four dark">
+  <div class="feature-card">
+    <div class="cert-img" onclick="window.open('certificates/oci-genai.pdf','_blank')"><div class="cert-img-icon">☁️</div><div class="cert-img-hint">Click to view certificate</div></div>
+    <div class="card-tag">Oracle</div><div class="card-title">OCI Generative AI Professional</div>
+    <div class="card-meta">2024 · Online Certification</div>
+    <button onclick="window.open('certificates/oci-genai.pdf','_blank')">View Certificate →</button>
+  </div>
+  <div class="feature-card">
+    <div class="cert-img" onclick="window.open('certificates/genai-studio.pdf','_blank')"><div class="cert-img-icon">🔮</div><div class="cert-img-hint">Click to view certificate</div></div>
+    <div class="card-tag">Simplilearn × Google Cloud</div><div class="card-title">Generative AI Studio</div>
+    <div class="card-meta">2024 · Online Certification</div>
+    <button onclick="window.open('certificates/genai-studio.pdf','_blank')">View Certificate →</button>
+  </div>
+  <div class="feature-card">
+    <div class="cert-img" onclick="window.open('certificates/intro-ai.pdf','_blank')"><div class="cert-img-icon">🧠</div><div class="cert-img-hint">Click to view certificate</div></div>
+    <div class="card-tag">Simplilearn SkillUp</div><div class="card-title">Introduction to Artificial Intelligence</div>
+    <div class="card-meta">2024 · Online Certification</div>
+    <button onclick="window.open('certificates/intro-ai.pdf','_blank')">View Certificate →</button>
+  </div>
+  <div class="feature-card">
+    <div class="cert-img" onclick="window.open('certificates/web-development.pdf','_blank')"><div class="cert-img-icon">🌐</div><div class="cert-img-hint">Click to view certificate</div></div>
+    <div class="card-tag">Simplilearn SkillUp</div><div class="card-title">Web Development for Beginners</div>
+    <div class="card-meta">2024 · Online Certification</div>
+    <button onclick="window.open('certificates/web-development.pdf','_blank')">View Certificate →</button>
+  </div>
+</div>
+
+<div class="contact-wrap" id="contact">
+  <div class="section-title">Get In <span style="color:#38bdf8;">Touch</span></div>
+  <p class="contact-desc">Open to entry-level backend Java roles, internships, and collaborations.</p>
+  <div class="contact-links">
+    <a href="mailto:nipunas1423@gmail.com" class="contact-link">✉ nipunas1423@gmail.com</a>
+    <a href="https://www.linkedin.com/in/nipuna-s-45a73b3a8/" target="_blank" class="contact-link">in LinkedIn</a>
+    <a href="https://github.com/nipunas1423-ai" target="_blank" class="contact-link">⌥ GitHub</a>
+    <a href="tel:8608982477" class="contact-link">📞 +91 8608982477</a>
+  </div>
+</div>
+
+<footer>© 2025 Nipuna S. All rights reserved. · Chennai, Tamil Nadu 🇮🇳</footer>
+<script src="script.js"></script>
 </body>
 </html>
